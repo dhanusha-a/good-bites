@@ -1,0 +1,112 @@
+/* CAROUSEL */
+
+#carousel {
+	float: left;
+    position:relative;
+    width: 900px;
+	height: 288px;
+}
+
+#slider-image-frame {
+	display: block;
+	width: 900px;
+	height: 288px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+#carousel .backgrounds {
+	display: block;
+	width: 900px;
+    height: 288px;
+	overflow: hidden;
+	background: none;
+}
+
+#carousel .backgrounds .item {
+    width: 900px;
+    height: 288px;
+    float:left;
+    z-index:1;
+	text-align: right;
+}
+
+#carousel .backgrounds .item_1{ }
+#carousel .backgrounds .item_2{ }
+#carousel .backgrounds .item_3{ }
+
+#carousel .panel {
+    color: #fff;
+    position:absolute;
+    right: 60px;
+    top: 30px;
+    height: 222px;
+    width: 362px;
+    z-index: 110;
+	background: url(../images/tooplate_slider_content.png) 
+}
+
+#carousel .next {
+    position:absolute;
+	z-index: 110;
+    right: 10px;
+    top: 120px;
+    display:block;
+    width: 38px;
+    height: 38px;
+    background: transparent url(../images/carousel_next_bg.png) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+#carousel .previous {
+    position:absolute;
+	z-index: 110;	
+    left: 10px;
+    top: 120px;
+    display:block;
+    width: 38px;
+    height: 38px;
+	z-index: 110;
+    background: transparent url(../images/carousel_previous_bg.png) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+#carousel .panel .details_wrapper {
+	position:absolute;
+	top:0;
+	left:0;
+    width: 362px;
+    height: 222px;
+	overflow:hidden;
+}
+#carousel .panel .details_wrapper .details {
+    height: 222px;
+}
+#carousel .panel .details_wrapper .details .detail {
+    width: 302px;
+    height: 162px;
+	padding: 30px;
+    float:left;    
+}
+#carousel .panel .details_wrapper .details h2 {
+	font-size: 30px;
+    margin: 0 0 30px 0;
+	color: #fff;
+}
+#carousel  .panel .details_wrapper .details p {
+	font-size: 14px;
+	line-height: 1.6em;
+	color: #eee;
+}
+#carousel  .panel .details_wrapper .details a.slider_more {
+	float: left;
+	margin-top: 20px;
+	display: block;
+	color: #fff;
+	font-weight: 700
+}   
+#carousel  .panel .details_wrapper .details a.slider_more:hover {
+	text-decoration: none;
+}
+/* END CAROUSEL */
